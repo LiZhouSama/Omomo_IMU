@@ -19,9 +19,10 @@ core
 *.json
 *.blend
 *.blend*
-./data/
-./omomo_runs/
-./pretrained_models/
-./blender-3.2.0-linux-x64/
-./wandb/
-./blender-3.2.0-linux-x64
+data/
+omomo_runs/
+pretrained_models/
+blender-3.2.0-linux-x64/
+wandb/
+blender-3.2.0-linux-x64
+human_body_prior/

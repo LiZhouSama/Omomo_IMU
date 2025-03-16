@@ -1,0 +1,123 @@
+# 忽略编译生成的文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 忽略C扩展
+*.so
+
+# 忽略分发/打包文件
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 忽略PyInstaller文件
+*.manifest
+*.spec
+
+# 忽略安装日志
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 忽略单元测试/覆盖率报告
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# 忽略翻译文件
+*.mo
+*.pot
+
+# 忽略Django文件
+*.log
+local_settings.py
+db.sqlite3
+
+# 忽略Flask文件
+instance/
+.webassets-cache
+
+# 忽略Scrapy文件
+.scrapy
+
+# 忽略Sphinx文档
+docs/_build/
+
+# 忽略PyBuilder文件
+target/
+
+# 忽略Jupyter Notebook文件
+.ipynb_checkpoints
+
+# 忽略pyenv文件
+.python-version
+
+# 忽略celery beat schedule文件
+celerybeat-schedule
+
+# 忽略SageMath解析文件
+*.sage.py
+
+# 忽略环境文件
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 忽略Spyder项目设置
+.spyderproject
+.spyproject
+
+# 忽略Rope项目设置
+.ropeproject
+
+# 忽略mkdocs文档
+/site
+
+# 忽略mypy缓存
+.mypy_cache/
+
+# 忽略特定项目文件
+*.ply
+*.pdf
+*pt*
+*.pyc
+*.sh
+*.log
+*.jpg
+*.png
+*.npz
+*.npy
+*.pkl
+*.mp4
+*.gif
+*.swp
+*.DS_Store*
+*.obj
+*.json
+*.blend
+*.blend* 
